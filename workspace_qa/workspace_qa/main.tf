@@ -3,7 +3,7 @@ resource "azurerm_resource_group" "rg_vdi" {
   name     = var.rg_name
   location = var.resource_group_location
 }
-
+#test
 # Create AVD workspace
 resource "azurerm_virtual_desktop_workspace" "wspace_avd_sunflow" {
 
